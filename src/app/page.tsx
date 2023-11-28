@@ -1,4 +1,4 @@
-import { Main } from 'next/document'
+
 import Image from 'next/image'
 import logo from '@/img/pomologo.png'
 
@@ -9,7 +9,7 @@ export default function Home() {
     <main className="bg-zinc-800 h-screen flex flex-col items-center justify-center gap-5">
   <Image className='lg:self-start ml-8' src={logo} alt="logo"/>
   <div className='flex items-center flex-col gap-4 mt-24'>
-  {/* <Image className='' width={350} src={timer} alt='timer'/> */}
+  
   <div className='group w-80 h-80 border-green-500 border-4 rounded-full flex items-center justify-center hover:border-yellow-400 '>
     <h1 className='font-bold text-white text-5xl group-hover:text-green-400'>12:00</h1>
   </div>
